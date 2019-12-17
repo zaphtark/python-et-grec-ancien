@@ -2,19 +2,25 @@
 
 # 'παιδεύω'
 # 'ἔχω'
-no_diacritic= {
-    'ἀ':'α','ἁ':'α','α':'α','ᾀ':'α','ᾁ':'α','ᾳ':'α','ἂ':'α','ἃ':'α','ἄ':'α','ἅ':'α','ἆ':'α','ἇ':'α','ὰ':'α','ᾶ':'α','ᾂ':'α','ᾃ':'α','ᾄ':'α','ᾅ':'α','ᾆ':'α','ᾇ':'α','ᾲ':'α','ᾷ':'α','ᾴ':'α','ά':'α',
-    'ἐ':'ε','ἑ':'ε','ε':'ε','έ':'ε','ὲ':'ε','ἕ':'ε','ἔ':'ε','ἓ':'ε','ἒ':'ε',
-    'η':'η','ή':'η','ἠ':'η','ἡ':'η','ἢ':'η','ἣ':'η','ἤ':'η','ἥ':'η','ἦ':'η','ἧ':'η','ὴ':'η','ῆ':'η','ῃ':'η','ᾐ':'η','ᾑ':'η','ᾒ':'η','ᾓ':'η','ᾔ':'η','ᾕ':'η','ᾖ':'η','ᾗ':'η','ῂ':'η','ῇ':'η','ῄ':'η',
-    'ι':'ι','ί':'ι','ἰ':'ι','ἱ':'ι','ἲ':'ι','ἳ':'ι','ἴ':'ι','ἶ':'ι','ἵ':'ι','ἷ':'ι','ὶ':'ι','ῖ':'ι',
-    'ο':'ο','ό':'ο','ὀ':'ο','ὁ':'ο','ὂ':'ο','ὃ':'ο','ὄ':'ο','ὅ':'ο','ὸ':'ο',
-    'υ':'υ','ύ':'υ','ὐ':'υ','ὑ':'υ','ὒ':'υ','ὓ':'υ','ὔ':'υ','ὕ':'υ','ὖ':'υ','ὗ':'υ','ὺ':'υ','ῦ':'υ',
-    'ω':'ω','ώ':'ω','ὠ':'ω','ὡ':'ω','ὢ':'ω','ὣ':'ω','ὤ':'ω','ὥ':'ω','ὦ':'ω','ὧ':'ω','ὼ':'ω','ῶ':'ω','ῳ':'ω','ᾠ':'ω','ᾡ':'ω','ᾢ':'ω','ᾣ':'ω','ᾤ':'ω','ᾥ':'ω','ᾦ':'ω','ᾧ':'ω','ῲ':'ω','ῷ':'ω','ῴ':'ω'
-    }
+
+alpha =['α','ἀ','ἁ','ᾀ','ᾁ','ᾳ','ἂ','ἃ','ἄ','ἅ','ἆ','ἇ','ὰ','ᾶ','ᾂ','ᾃ','ᾄ','ᾅ','ᾆ','ᾇ','ᾲ','ᾷ','ᾴ','ά']
+epsilon =['ε','ἐ','ἑ','έ','ὲ','ἕ','ἔ','ἓ','ἒ']
+eta =['η','ή','ἠ','ἡ','ἢ','ἣ','ἤ','ἥ','ἦ','ἧ','ὴ','ῆ','ῃ','ᾐ','ᾑ','ᾒ','ᾓ','ᾔ','ᾕ','ᾖ','ᾗ','ῂ','ῇ','ῄ']
+iota =['ι','ί','ἰ','ἱ','ἲ','ἳ','ἴ','ἶ','ἵ','ἷ','ὶ','ῖ']
+omicron =['ο','ό','ὀ','ὁ','ὂ','ὃ','ὄ','ὅ','ὸ']
+upsilon=['υ','ύ','ὐ','ὑ','ὒ','ὓ','ὔ','ὕ','ὖ','ὗ','ὺ','ῦ']
+omega=['ω','ώ','ὠ','ὡ','ὢ','ὣ','ὤ','ὥ','ὦ','ὧ','ὼ','ῶ','ῳ','ᾠ','ᾡ','ᾢ','ᾣ','ᾤ','ᾥ','ᾦ','ᾧ','ῲ','ῷ','ῴ']
+
 diphtongues= ['αι','αυ','ει','ευ','οι','ου','ηυ','υι']
-voyelles=['ω','ώ','ὠ','ὡ','ὢ','ὣ','ὤ','ὥ','ὦ','ὧ','ὼ','ῶ','ῳ','ᾠ','ᾡ','ᾢ','ᾣ','ᾤ','ᾥ','ᾦ','ᾧ','ῲ','ῷ','ῴ','υ','ύ','ὐ','ὑ','ὒ','ὓ','ὔ','ὕ','ὖ','ὗ','ὺ','ῦ','ο','ό','ὀ','ὁ','ὂ','ὃ','ὄ','ὅ','ὸ','ἀ','ἁ','α','ᾀ','ᾁ','ᾳ','ἂ','ἃ','ἄ','ἅ','ἆ','ἇ','ὰ','ᾶ','ᾂ','ᾃ','ᾄ','ᾅ','ᾆ','ᾇ','ᾲ','ᾷ','ᾴ','ά','ἐ','ἑ','ε','έ','ὲ','ἕ','ἔ','ἓ','ἒ','η','ή','ἠ','ἡ','ἢ','ἣ','ἤ','ἥ','ἦ','ἧ','ὴ','ῆ','ῃ','ᾐ','ᾑ','ᾒ','ᾓ','ᾔ','ᾕ','ᾖ','ᾗ','ῂ','ῇ','ῄ']
+voyelles_sans_dia= ['α','ε','η','ι','ο','υ','ω']
+
 finales_ind_pres_act = ['ω','εις','ει','ομεν','ετε','ουσι']
 finales_ind_imp_act = ['ον','ες','ε','ομεν','ετε','ον']
+
+no_diacritic={}
+
+for x in [alpha, epsilon, eta, iota, omicron, upsilon, omega]:
+    for y in x: no_diacritic[y] = x[0]
 
 def radicalisateur(mot):
     if mot[-1]=='ω':
@@ -22,7 +28,7 @@ def radicalisateur(mot):
         return mot
     
 def is_voyelle(lettre):
-    return lettre in voyelles
+    return lettre in no_diacritic
     
 def is_diphtongue(lettres):
     return lettres in diphtongues
@@ -42,7 +48,7 @@ def dediacritique(mot):
 def ajout_finale(radical,finales):
     retour = ['']*len(finales)
     for i in range(len(finales)):
-      retour[i]=radical+finales[i]
+        retour[i]=radical+finales[i]
     else: return retour
 
 def contract_aug(radical):
@@ -54,9 +60,48 @@ def contract_aug(radical):
     elif radical=='οι': return 'οἰ'
     elif radical=='υ': return 'ἐυ'
 
+def resprit(lettre):
+    lettre= chr(7936+(16*voyelles_sans_dia.index(lettre)))
+    return lettre
+
+def raccent(lettre):
+    lettre = chr(ord(lettre)+5)
+    return lettre
+
+#def ajout_accent(tableau):
+#    for x in range(len(tableau)):
+#        nouveau_mot=list(tableau[x])
+#        if nouveau_mot[-1]=='η' or nouveau_mot[-1]=='ω' or nouveau_mot[-2] in diphtongues:
+#                z=0
+#                i=0
+#                while i<3 or z>(-(len(nouveau_mot))-1):
+#                    if nouveau_mot[z-1] in voyelles or nouveau_mot[z-2] in diphtongues:
+#                        i=i+1
+#                        z=z-1
+#                    else: z=z-1
+#                else: nouveau_mot[z]=raccent(nouveau_mot[z])
+#        else:
+#            z=0
+#            while i<4 or z>-(len(nouveau_mot)):
+#                if nouveau_mot[z-1] in voyelles or nouveau_mot[z-2] in diphtongues:
+#                        i=i+1
+#                        z=z-1
+#                else: z=z-1
+#            else: nouveau_mot[z]=raccent(nouveau_mot[z])
+#    else: return tableau
+
+def ajout_esprit(tableau):
+    for x in range(len(tableau)):
+        tableau[x] = resprit(tableau[x][0])+tableau[x][1:]
+    else: return tableau
+    
+    
 def gen_pres(mot):
     radical = radicalisateur(dediacritique(mot))
     tableauPres = ajout_finale(radical,finales_ind_pres_act)
+    if is_voyelle(radical[0]):
+        tableauPres = ajout_esprit(tableauPres)
+    tableau_pres = ajout_accent(tableauPres)
     return tableauPres
 
 def add_augment(tableau,radical):
